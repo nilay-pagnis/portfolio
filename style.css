@@ -214,15 +214,56 @@
 
 @media screen and (max-width:1024px) {
 
+    .salute {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        justify-content: center;
+    }
+
+    .saluteImgContainer>img {
+        border-radius: 10px;
+        width: 200px;
+    }
+
+    .saluteText {
+        color: blueviolet;
+        font-size: 40vw;
+        cursor: default;
+    }
+
+    .name {
+        margin-right: 80px;
+        font-size: 15vw;
+        color: #333;
+        cursor: default;
+        text-align: center;
+        line-height: 100vh;
+    }
+
     .projects {
         padding: 0 30px;
         text-align: center;
+    }
+
+    .lapi-img{
+        height: 220px;
     }
    
     .project {
         flex-direction: column;  
         height: max-content;
     }
+
+    .projects{
+        gap: 10;
+    }
+
+    .githubTitle {
+        margin-left: 0px;
+    }
+
     .project:nth-child(2n) {
         flex-direction: column;
     }
